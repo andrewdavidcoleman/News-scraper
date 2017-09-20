@@ -5,7 +5,7 @@ var logger = require("morgan");
 var mongoose = require("mongoose");
 // Require Article and Note models
 var Article = require("./models/article.js");
-var Note = require("./models/note.js")
+var Note = require("./models/note.js");
 // Scraping tools
 var request = require("request");
 var cheerio = require("cheerio");
