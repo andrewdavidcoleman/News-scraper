@@ -3,9 +3,9 @@ var express = require("express");
 var bodyParser = require("body-parser");
 var logger = require("morgan");
 var mongoose = require("mongoose");
-// Require Article model
+// Require Article and Note models
 var Article = require("../models/Article.js");
-var Note = require("../models/Note.js")
+var Note = require("./models/Note.js")
 // Scraping tools
 var request = require("request");
 var cheerio = require("cheerio");
